@@ -22,11 +22,11 @@ public class ReentrantLockSingleton {
 
 	public static ReentrantLockSingleton getInstance() {
 		if (null == instance) {
-			synchronized (lock) {
-				if (null == instance) {
-					instance = new ReentrantLockSingleton();
-				}
+			lock.lock();
+			if (null == instance) {
+				instance = new ReentrantLockSingleton();
 			}
+			lock.unlock();
 		}
 
 		return instance;
