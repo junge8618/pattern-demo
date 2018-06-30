@@ -5,6 +5,8 @@ package com.junge.demo.pattern.single;
 
 import java.util.concurrent.CountDownLatch;
 
+import com.junge.demo.pattern.create.single.ObjectLockSingleton;
+
 /**
  * 描述类功能
  * 

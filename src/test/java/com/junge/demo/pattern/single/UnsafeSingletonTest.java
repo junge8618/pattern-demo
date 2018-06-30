@@ -5,6 +5,8 @@ package com.junge.demo.pattern.single;
 
 import java.util.concurrent.CountDownLatch;
 
+import com.junge.demo.pattern.create.single.UnsafeSingleton;
+
 /**
  * 描述类功能
  * @author liuxj

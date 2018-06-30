@@ -2,6 +2,8 @@ package com.junge.demo.pattern.single;
 
 import java.util.concurrent.CountDownLatch;
 
+import com.junge.demo.pattern.create.single.SynchroinzedSingleton;
+
 public class SynchroinzedSingletonTest {
 	private static final int count = 10;
 
