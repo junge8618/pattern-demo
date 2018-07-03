@@ -1,4 +1,7 @@
 # pattern-demo
+## 2018-07-03 单例模式添加静态内部单例(StaticInnerClassSingleton)，枚举单例例子(EnumSingleton)
+
+-----------------------------------------------------------------------------------------
 ## 2018-07-02 抽象工程模式
 ### 路径：com.junge.demo.pattern.create.abstractfactory
 ### 资料参考：http://www.cnblogs.com/java-my-life/archive/2012/03/28/2418836.html
