@@ -4,6 +4,7 @@
 package com.junge.demo.pattern.create.builder.concrete;
 
 /**
+ * 保险协议
  * @author liuxj
  *
  */
