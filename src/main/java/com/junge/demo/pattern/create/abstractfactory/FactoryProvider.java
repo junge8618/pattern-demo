@@ -10,7 +10,7 @@ import com.junge.demo.pattern.create.abstractfactory.window.WindowFactory;
  * @author "liuxj"
  *
  */
-public class FactoryClient {
+public class FactoryProvider {
 
 	public static AbstractFactory getFactory(String os) {
 		if ("unix".equalsIgnoreCase(os)) {

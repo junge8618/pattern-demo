@@ -11,7 +11,12 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		AbstractFactory factory = FactoryClient.getFactory("unix");
+		AbstractFactory factory = FactoryProvider.getFactory("unix");
+		
+		factory.createButton().draw();
+		factory.createText().write();
+		
+		factory = FactoryProvider.getFactory("window");
 		
 		factory.createButton().draw();
 		factory.createText().write();
